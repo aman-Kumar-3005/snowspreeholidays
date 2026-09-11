@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80" fill="none">
+  <!-- Mountain & Houseboat Emblem -->
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E3B43"/>
+      <stop offset="100%" stop-color="#2C6E7A"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFAE6C"/>
+      <stop offset="100%" stop-color="#E28743"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Icon Badge -->
+  <rect x="5" y="10" width="60" height="60" rx="16" fill="url(#primaryGrad)"/>
+  
+  <!-- Snow Mountain Peaks -->
+  <path d="M15 54 L28 28 L40 54 Z" fill="#FFFFFF" opacity="0.95"/>
+  <path d="M32 54 L44 34 L55 54 Z" fill="#FFFFFF" opacity="0.75"/>
+  <path d="M28 28 L32 36 L24 36 Z" fill="#E28743"/> <!-- Sun/Snow cap warm touch -->
+
+  <!-- Dal Lake Shikara / Houseboat Wave Accent -->
+  <path d="M16 58 C 24 55, 32 61, 40 58 C 48 55, 52 59, 54 58" stroke="url(#accentGrad)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Typography -->
+  <!-- "SPREE" -->
+  <text x="80" y="44" font-family="'Playfair Display', Georgia, serif" font-size="29" font-weight="800" fill="#0E3B43" letter-spacing="-0.5">
+    SPREE
+  </text>
+  
+  <!-- "HOLIDAYS" in Accent Amber -->
+  <text x="180" y="44" font-family="'Playfair Display', Georgia, serif" font-size="29" font-weight="800" fill="#E28743" letter-spacing="-0.5">
+    HOLIDAYS
+  </text>
+
+  <!-- Subtitle -->
+  <text x="82" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#5B6F71" letter-spacing="2.8">
+    KASHMIR TOUR SPECIALIST
+  </text>
+</svg>

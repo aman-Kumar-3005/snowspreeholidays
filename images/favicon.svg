@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E3B43"/>
+      <stop offset="100%" stop-color="#2C6E7A"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#favGrad)"/>
+  <!-- Mountain Peaks -->
+  <path d="M12 48 L27 20 L40 48 Z" fill="#FFFFFF"/>
+  <path d="M32 48 L44 26 L56 48 Z" fill="#FFFFFF" opacity="0.8"/>
+  <path d="M27 20 L31 28 L23 28 Z" fill="#E28743"/>
+  <path d="M14 52 C 22 49, 30 55, 38 52 C 46 49, 50 53, 52 52" stroke="#FFAE6C" stroke-width="3" stroke-linecap="round"/>
+</svg>
